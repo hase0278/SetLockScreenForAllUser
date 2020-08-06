@@ -37,7 +37,7 @@
             // 
             // ImageView
             // 
-            this.ImageView.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ImageView.BackColor = System.Drawing.Color.White;
             this.ImageView.Location = new System.Drawing.Point(25, 35);
             this.ImageView.Name = "ImageView";
             this.ImageView.Size = new System.Drawing.Size(580, 222);
@@ -70,12 +70,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkGray;
+            this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(645, 337);
             this.Controls.Add(this.SetLockScreenBtn);
             this.Controls.Add(this.SelectBtn);
             this.Controls.Add(this.ImageView);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(661, 376);
+            this.MinimumSize = new System.Drawing.Size(661, 376);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Universal Lockscreen Setter";

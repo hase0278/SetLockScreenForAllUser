@@ -23,8 +23,6 @@ namespace SetLockScreenForAllUser
             MessageBox.Show("Lockscreen set to "+ @imgPath +". Please restart your computer to see changes.", "Universal Lockscreen Setter");
         }
 
-
-
         private string getImagePath()
         {
             string path = "";
